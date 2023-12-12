@@ -12,6 +12,8 @@ import LikeButtton from "./components/LikeButtton";
 import ClickablePicture from "./components/ClickablePicture";
 import Dice from "./components/Dice";
 import Carousel from "./components/Carousel";
+import NumbersTable from "./components/NumbersTable"
+import RGBColorPicker from "./components/RGBColorPicker";
 
 function App() {
 
@@ -46,6 +48,10 @@ function App() {
     "https://randomuser.me/api/portraits/women/2.jpg",
     "https://randomuser.me/api/portraits/men/2.jpg"
   ]}/>
+      <h2>Iteration 12</h2>
+      <NumbersTable limit={9} />
+      <h2>Iteration 16</h2>
+      <RGBColorPicker />
 
     </div>
   );
